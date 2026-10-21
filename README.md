@@ -2,7 +2,7 @@
 
 **An Excel-based sales analysis and executive review of sales performance, product mix, order outcomes, and regional and sales-representative results.**
 
-![H2H Sales Performance Dashboard](dashboard-preview.png)
+![H2H Sales Performance Dashboard](Final%20Dashboard-By%20Excel.png)
 
 > **Portfolio note:** This project uses simulated business data. Findings reflect the available dataset and should be interpreted alongside the data-quality limitations described below.
 
@@ -49,37 +49,27 @@ These recommendations are based on the reported analysis; further checks are nee
 
 ## Dashboard Preview
 
-The dashboard image above provides a quick visual overview of the analysis. The original Excel workbook is provided as a separate project deliverable.
+The dashboard image above provides a quick visual overview of the analysis.
 
 ## Executive Presentation
 
-[**View or download the H2H Sales Performance Presentation (PowerPoint)**](report/H2H_Sales_Performance_Presentation.pptx)
+[**Download the H2H Sales Performance Presentation (PowerPoint)**](H2H_Sales_Performance_Presentation.pptx)
 
 The presentation summarizes the executive findings, areas of risk, and recommended actions.
 
 ## Supporting Report
 
-[**View or download the H2H Sales Performance Report (Word)**](report/H2H_Sales_Performance_Report.docx)
+[**Download the H2H Sales Performance Report (Word)**](H2H_Sales_Performance_Report.docx)
 
 The report provides supporting detail for the metrics, findings, and recommendations.
-
-## Excel Workbook
-
-[**View or download the H2H Sales Analysis Workbook**](workbook/Sales-Analysis-Assignment-2-Claudia.xlsx)
-
-Use the workbook to explore the underlying analysis and Excel work.
 
 ## Repository Structure
 
 ```
 ├── README.md
-├── dashboard/
-│   └── dashboard-preview.png
-├── workbook/
-│   └── Sales-Analysis-Assignment-2-Claudia.xlsx
-└── report/
-    ├── H2H_Sales_Performance_Report.docx
-    └── H2H_Sales_Performance_Presentation.pptx
+├── Final Dashboard-By Excel.png
+├── H2H_Sales_Performance_Report.docx
+└── H2H_Sales_Performance_Presentation.pptx
 ```
 
 ## About Me
