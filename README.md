@@ -2,7 +2,7 @@
 
 **An Excel-based sales analysis and executive review of sales performance, product mix, order outcomes, and regional and sales-representative results.**
 
-![H2H Sales Performance Dashboard](dashboard/dashboard-preview.png)
+![H2H Sales Performance Dashboard](dashboard-preview.png)
 
 > **Portfolio note:** This project uses simulated business data. Findings reflect the available dataset and should be interpreted alongside the data-quality limitations described below.
 
