@@ -1,65 +1,88 @@
-# H2H Sales Performance Analysis
+# H2H Sales Performance Analysis (Excel)
 
-An Excel-based sales performance project exploring business performance, product mix, order outcomes, customer activity, geography, and sales-representative results. The project combines an executive dashboard with a written analysis and presentation.
+**An Excel-based sales analysis and executive review of sales performance, product mix, order outcomes, and regional and sales-representative results.**
 
-> **Project context:** Simulated business data covering May 2011–May 2014. Results and recommendations should be interpreted in the context of the dataset and its reporting completeness.
+![H2H Sales Performance Dashboard](dashboard/dashboard-preview.png)
 
-## Project overview
+> **Portfolio note:** This project uses simulated business data. Findings reflect the available dataset and should be interpreted alongside the data-quality limitations described below.
 
-The analysis uses Microsoft Excel to prepare and summarize sales data, calculate key performance indicators, and communicate findings through dashboard visuals and executive-facing deliverables.
+## Project Overview
 
-### Headline metrics
+This project analyzes H2H sales data covering May 2011–May 2014 to understand revenue performance, customer activity, product and category contribution, order outcomes, geographic patterns, and sales-representative performance. The dashboard preview presents the visual summary, while the report and presentation explain the main findings and recommended actions.
 
-| Metric | Result |
-|---|---:|
-| Total sales | $34.15M |
-| Net sales | $30.31M |
-| Orders | 1,465 |
-| Units sold | 85,866 |
-| Unique customers | 294 |
-| Average order value | $23.3K |
+## What I Did
 
-*Figures are taken from the project's supporting report and should be read alongside the dataset's time coverage and data-quality limitations.*
+- Reviewed and prepared the sales data for analysis in Microsoft Excel.
+- Summarized sales, net sales after discounts, orders, units, customers, and average order value.
+- Compared sales across time periods, product categories, products, markets, and sales representatives.
+- Examined order statuses, tax and freight metrics, and patterns that may need further validation.
+- Communicated the results through an executive dashboard, supporting report, and presentation.
 
-## Key findings
+**Tools:** Microsoft Excel (data preparation, formulas, PivotTables/summaries, KPI calculations, dashboard design) and PowerPoint (executive presentation).
 
-- **Strong growth:** Sales increased approximately 86% between the two full calendar years compared in the report, from $8.7M in 2012 to $16.2M in 2013.
-- **Category concentration:** Bikes account for approximately 80.6% of reported sales, leaving the business exposed to over-reliance on one category.
-- **Order outcomes:** 303 of 1,465 orders (20.7%) were reported as Cancelled, Rejected, or Backordered; these outcomes warrant further investigation.
-- **International footprint:** Sales span eight markets across North America, Europe, and the Pacific. Canada, Northwest, France, and the UK are identified as the four strongest areas in the report.
-- **Data-quality flag:** February and April 2014 each show less than $4K in recorded sales, unlike adjacent months. This should be validated before drawing conclusions about business performance.
+## Headline Metrics (May 2011–May 2014)
+
+| Total Sales | Net Sales | Orders | Units Sold | Customers | Average Order Value |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| $34.15M | $30.31M | 1,465 | 85,866 | 294 | $23.3K |
+
+*Metrics are taken from the supporting project report.*
+
+## Key Findings
+
+1. **Strong year-over-year growth.** Sales increased approximately 86% from $8.7M in 2012 to $16.2M in 2013, the two full calendar years in the dataset.
+2. **Sales are concentrated in Bikes.** Bikes account for approximately 80.6% of reported sales, leaving the business reliant on one category.
+3. **A notable share of orders did not complete.** 303 of 1,465 orders (20.7%) were marked Cancelled, Rejected, or Backordered; these outcomes warrant investigation.
+4. **Sales span multiple markets.** The report identifies eight markets across North America, Europe, and the Pacific, with Canada, Northwest, France, and the UK among the strongest areas.
+5. **Two 2014 months need data validation.** February and April each show less than $4K in recorded sales, unlike adjacent months. This may indicate a data or reporting gap, but should be checked against source records before drawing conclusions.
 
 ## Recommendations
 
-1. Grow Components, Clothing, and Accessories to reduce dependence on Bikes.
-2. Investigate cancellation, rejection, and backorder drivers, including inventory availability and approval workflows.
-3. Validate the unusually low February and April 2014 values against source records and reporting systems.
-4. Document practices used by high-performing sales representatives and share them through coaching.
+| Priority | Recommendation | Business rationale |
+|:---:|---|---|
+| 1 | Grow Components, Clothing, and Accessories. | Reduce dependence on Bikes and explore opportunities in smaller categories. |
+| 2 | Investigate cancelled, rejected, and backordered orders. | Identify possible inventory, fulfilment, or approval issues behind the 20.7% share. |
+| 3 | Validate February and April 2014 sales. | Check source records and reporting systems before interpreting the unusually low values. |
+| 4 | Learn from high-performing sales representatives. | Identify repeatable practices and share them through coaching. |
 
-## Analysis coverage
+These recommendations are based on the reported analysis; further checks are needed to confirm causes before operational changes are made.
 
-- Sales and net sales after discounts
-- Orders, units, order status, and average order value
-- Unique customers and sales per customer
-- Product and category performance, including top products
-- Geographic performance by city, city group, and state
-- Tax, freight, and average freight per order
-- Sales by employee or sales representative
+## Dashboard Preview
 
-## Tools and skills
+The dashboard image above provides a quick visual overview of the analysis. The original Excel workbook is provided as a separate project deliverable.
 
-**Microsoft Excel** · Data cleaning and preparation · KPI calculations · PivotTables and summaries · Dashboard design · Business analysis · Executive reporting and presentation
+## Executive Presentation
 
-## Project deliverables
+[**View or download the H2H Sales Performance Presentation (PowerPoint)**](report/H2H_Sales_Performance_Presentation.pptx)
 
-The repository is being organized to include the original Excel workbook, dashboard preview, analytical report, and presentation. Files will be linked here once the uploads are verified.
+The presentation summarizes the executive findings, areas of risk, and recommended actions.
 
-## Limitations
+## Supporting Report
 
-- The dataset is simulated business data.
-- The time range begins and ends partway through a calendar year.
-- The unusually low February and April 2014 values require validation; they should not be treated as confirmed evidence of a real sales decline without checking the source data.
+[**View or download the H2H Sales Performance Report (Word)**](report/H2H_Sales_Performance_Report.docx)
 
----
+The report provides supporting detail for the metrics, findings, and recommendations.
 
-*Prepared as a portfolio project demonstrating Excel-based sales analysis and business communication.*
+## Excel Workbook
+
+[**View or download the H2H Sales Analysis Workbook**](workbook/Sales-Analysis-Assignment-2-Claudia.xlsx)
+
+Use the workbook to explore the underlying analysis and Excel work.
+
+## Repository Structure
+
+```
+├── README.md
+├── dashboard/
+│   └── dashboard-preview.png
+├── workbook/
+│   └── Sales-Analysis-Assignment-2-Claudia.xlsx
+└── report/
+    ├── H2H_Sales_Performance_Report.docx
+    └── H2H_Sales_Performance_Presentation.pptx
+```
+
+## About Me
+
+**Claudia Al-Amir** | Data Analyst  
+[LinkedIn](https://www.linkedin.com/in/claudia-al-amir-131199424) · [Email](mailto:claudiaalamir21@gmail.com)
