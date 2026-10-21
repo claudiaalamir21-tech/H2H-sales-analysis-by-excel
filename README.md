@@ -1,2 +1,2 @@
-# H2H sales analysis by exel
+# H2H sales analysis by excel
 
